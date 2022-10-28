@@ -41,12 +41,16 @@ body{
 
 section{
     height: 500px;
-    padding-bottom: 250px;
+    padding-bottom: 150px ;
     }
 
 p{
     margin-bottom: 25px;
     color: dimgray;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 20px;
+    
 }
 
 
@@ -76,8 +80,34 @@ p{
 }
 
 .Bottom_banner{
-    
+    padding-top: 180px;
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.card-highlight{
+    color: rgb(255, 185, 55);
+}
+
+.experience-BG{
+    background-image: url(image/ExpBG.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    padding: 4px;
+}
+
+.individual-card{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 55%;
+    
+}
+
+.experience{
+    padding-top: 180px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
 }
