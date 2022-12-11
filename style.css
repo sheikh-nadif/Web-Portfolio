@@ -177,7 +177,7 @@ footer .social-icon li a {
     color: white;
 }
 
-footer .social-icon li:hover {
+footer .social-icon li a:hover {
     transform: translateY(-10px);
 }
 
